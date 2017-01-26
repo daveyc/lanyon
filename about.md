@@ -41,5 +41,5 @@ function show()
     format.json { widget = "hello" }
   end
 end
-{% endhighlight %}
+{% endhighlight %} 
 
