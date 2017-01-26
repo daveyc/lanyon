@@ -28,3 +28,18 @@ Some fun facts about the setup of this project include:
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
+
+DaveyC!
+
+
+## Code
+
+{% highlight lua %}
+function show()
+  local widget = Widget()
+  for format in widget do
+    format.json { widget = "hello" }
+  end
+end
+{% endhighlight %}
+

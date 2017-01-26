@@ -120,6 +120,17 @@ Lanyon has two branches, but only one is used for active development.
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 
+## Code
+
+{% highlight lua %}
+function show()
+  local widget = Widget()
+  for format in widget do
+    format.json { widget = "hello" }
+  end
+end
+{% endhighlight %}
+
 ## Author
 
 **Mark Otto**
