@@ -3,6 +3,12 @@ _gh_pages
 _site
 .ruby-version
 
+# project files
+*.vpw
+*.vpwhist
+*.vpj
+*.vtj
+
 # Numerous always-ignore extensions
 *.diff
 *.err
