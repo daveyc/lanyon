@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*
- * \
+ * Container
  *
  * Center the page content.
  */
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 38em) {
   .container {
-    max-width: 48rem;
+    max-width: 42rem;
   }
 }
 @media (min-width: 56em) {
@@ -561,3 +561,4 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+

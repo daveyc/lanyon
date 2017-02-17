@@ -8,7 +8,7 @@ title: Using Lua to process MVS data sets.
 [Lua](https://www.lua.org/) is a lovely little language. It's simple, powerful and insanely fast. It's also easy to extend with C/C++ modules.
 
 The [Lua4z](https://www.lua4z.com/) port brings Lua to the z/OS mainframe operating system. One of the most imporant pieces of work for the port
-was to patch the lua I/O library to fully support all the different types of MVS data set: Sequential, PDS, VSAM (ESDS, KSDS, RRDS) and z/OS Unix files.
+was to patch the Lua I/O library to support all the different types of MVS data set: Sequential, PDS, VSAM (ESDS, KSDS, RRDS) and z/OS Unix files.
 Luckily this was not an onerous task as the C standard library `fopen()` supports all of the above. Some boiler plate code was added to support record based
 I/O and voila!
 
